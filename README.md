@@ -10,22 +10,24 @@ Automate the process of searching for buses, selecting options, and booking a se
 
 ## Step Definitions:
 
-@Given("user is on homepage"):
+### @Given("user is on homepage"):
 
-Sets up the Firefox WebDriver.
-Navigates to the Abhibus homepage and maximizes the browser window.
-Waits for 3 seconds to ensure the page loads.
-@When("user enters valid address,date and search"):
+#### Sets up the Firefox WebDriver.
+#### Navigates to the Abhibus homepage and maximizes the browser window.
+#### Waits for 3 seconds to ensure the page loads.
 
-Interacts with input fields and buttons to:
-Select 'From Station' (Bangalore).
-Select 'To Station' (Hyderabad).
-Click the 'Tomorrow' button to select the date.
-Introduces delays to wait for each interaction to complete.
-@Then("user clicks price drop, bus partners and three options"):
+###@When("user enters valid address,date and search"):
 
-Clicks the 'Price Drop' checkbox.
-Clicks the 'Bus Partner' dropdown.
+#### Interacts with input fields and buttons to:
+#### Select 'From Station' (Bangalore).
+#### Select 'To Station' (Hyderabad).
+#### Click the 'Tomorrow' button to select the date.
+#### Introduces delays to wait for each interaction to complete.
+
+### @Then("user clicks price drop, bus partners and three options"):
+
+#### Clicks the 'Price Drop' checkbox.
+#### Clicks the 'Bus Partner' dropdown.
 Selects multiple options from the bus partners' list.
 Waits for each action to be processed.
 @Then("user select seat and dropping point"):
