@@ -1,7 +1,3 @@
-# Booking_Ticket_on_RedBus
-
-
-
 #Project Description:
 Objective:
 Automate the process of searching for buses, selecting options, and booking a seat on the Abhibus website.
