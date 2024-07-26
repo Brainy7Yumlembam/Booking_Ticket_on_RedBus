@@ -1,0 +1,8 @@
+Feature: Redbus ticket booking
+
+ Scenario: book ticket with valid credentials 
+	   Given user is on homepage
+ 		 When user enters valid address,date and search
+	   Then  user clicks price drop, bus partners and three options
+	   Then user select seat and dropping point  
+		 
