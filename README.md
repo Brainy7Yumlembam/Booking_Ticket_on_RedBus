@@ -1,10 +1,9 @@
-#Project Description:
+Project Description:
 Objective:
 Automate the process of searching for buses, selecting options, and booking a seat on the Abhibus website.
 
-#Details:
-
-#Dependencies:
+Details:
+Dependencies:
 
 Selenium WebDriver: Used for browser automation.
 Cucumber: Used for defining BDD (Behavior Driven Development) tests.
