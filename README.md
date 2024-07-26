@@ -8,9 +8,6 @@ Automate the process of searching for buses, selecting options, and booking a se
 #### Cucumber: Used for defining BDD (Behavior Driven Development) tests.
 #### WebDriverManager: Manages browser drivers.
 
-## Class: 'Steps'
-Contains step definitions for Cucumber scenarios.
-
 ## Step Definitions:
 
 @Given("user is on homepage"):
