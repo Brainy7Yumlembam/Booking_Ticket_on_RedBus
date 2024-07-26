@@ -16,7 +16,7 @@ Automate the process of searching for buses, selecting options, and booking a se
 #### Navigates to the Abhibus homepage and maximizes the browser window.
 #### Waits for 3 seconds to ensure the page loads.
 
-###@When("user enters valid address,date and search"):
+### @When("user enters valid address,date and search"):
 
 #### Interacts with input fields and buttons to:
 #### Select 'From Station' (Bangalore).
